@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TH-angular-name-card';
+
+  name = 'NguyenThanhVinh';
+  isClear(){
+    this.name='';
+  } ;
+  isDisabled = false;
 }
